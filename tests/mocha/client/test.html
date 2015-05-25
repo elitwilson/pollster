@@ -1,0 +1,21 @@
+<html>  
+<head>  
+  <meta charset="utf-8">
+  <title>Mocha Tests</title>
+  <link rel="stylesheet" href="mocha/mocha.css" />
+  <script src="../assets/js/libs/jquery.js"></script>
+  <script src="chai/chai.js"></script> <!-- added chai.js instead of assert -->
+  <script src="mocha/mocha.js"></script>
+  <script src="chai-jquery.js"></script>
+  <script>mocha.setup('bdd')</script>
+  <script src="test.foobar.js"></script>
+  <script>
+    $(function() {
+      mocha.run();
+    })
+  </script>
+</head>  
+<body>  
+  <div id="mocha"></div>
+</body>  
+</html>  
