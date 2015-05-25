@@ -2,8 +2,12 @@ Router.route('/', {
   name: 'home'
 });
 
-Router.route('/dashboard', {
-  name: 'dashboard'
+Router.route('/createpoll', {
+	name: 'createPoll'
+});
+
+Router.route('/poll', {
+	name: 'poll'
 });
 
 Router.plugin('ensureSignedIn', {

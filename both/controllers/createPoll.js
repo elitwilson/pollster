@@ -1,0 +1,3 @@
+CreatePollController = AppController.extend({
+
+});
